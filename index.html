@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">Yazılım Kafası Slider</div>
+    <div class="img-container">
+        <img src="audi4.jpg" alt="" class="img">
+        <div class="div prev" onclick="prev()">
+            <ion-icon name="arrow-back"></ion-icon>
+        </div>
+        <div class="div next" onclick="next()">
+            <ion-icon name="arrow-forward"></ion-icon>
+        </div>
+        <div class="radio">
+            <button class="radio-btn" id="radio1" onclick="imageShow(0)"></button>
+            <button class="radio-btn" id="radio2" onclick="imageShow(1)"></button>
+            <button class="radio-btn" id="radio3" onclick="imageShow(2)"></button>
+            <button class="radio-btn" id="radio4" onclick="imageShow(3)"></button>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
